@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2015, 5:33:28 PM
+    Author     : justinyeo
+*/
+
+.English{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.English .front {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.English .back {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.Chinese{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: transparent;
+    pointer-events: none;
+    color: white;
+}
+
+.Chinese .front {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: grey;
+}
+
+.Chinese .back {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: grey;
+}
+
+.Confirm{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    margin-left: 70px;
+    display: inline-block;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.ConfirmSelected{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    margin-left: 70px;
+    display: inline-block;
+    background-color: grey;
+    border-color: black;
+    color: white;
+}
+
+.Next{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    margin-left: 100px;
+    display: inline-block;
+    background-color: grey;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 68px;
+    color: black;
+    font-size: 30px;
+}
+
+#Confirm{
+    text-align: center;
+    color: transparent;
+    font-size: 30px;
+}
